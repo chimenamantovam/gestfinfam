@@ -1,0 +1,45 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+broadcast/
+broadcast/*/31337/
+broadcast/*/11155111/
+broadcast/**/dry-run/
+
+# --------------------------------------------
+# Node & JavaScript
+# --------------------------------------------
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --------------------------------------------
+# VSCode & IDEs
+# --------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# --------------------------------------------
+# Arquivos temporários
+# --------------------------------------------
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.swo
+
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+.env.local
+.env.*.local
+private_key.txt
+secret.txt
+
